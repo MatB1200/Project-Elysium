@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="12" corepackage="false" gameversion="1.0.21.0">
+<contentpackage name="Project Elysium" corepackage="false" gameversion="1.0.21.0">
     <Character file="%ModDir%/Characters/Mudraptor.xml" />
 </contentpackage>
