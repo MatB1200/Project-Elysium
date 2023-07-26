@@ -8,12 +8,12 @@ local stime = {}
 math.randomseed(os.time())
 
 function huskQueueAdd(character, startTime)
-		for _, characterQueue in pairs(queue) do
-			if character.DisplayName == characterQueue.DisplayName then return end
-		end
+	for _, characterQueue in pairs(queue) do
+		if character.DisplayName == characterQueue.DisplayName then return end
+	end
 		queue[#queue+1] = character
 		stime[#stime+1] = startTime
-		return
+	return
 	end
 
 Hook.Add("think", "huskofication", function()
